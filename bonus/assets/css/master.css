@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    background: url("../img/1299.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+.train{
+    position: relative;
+    height: 100vh;
+}
+
+.trainCard{
+    display: flex;
+    margin: 0 5px;
+    position: absolute;
+    bottom: 150px;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0 auto;
+}
+
+.trainInputs{
+    background-color: white;
+    padding: 50px;
+}
+
+.trainInputs form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trainCard input{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 15px;
+}
+
+.train img{
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+}
+
+.train img:hover{
+    
+    filter: drop-shadow(2px 2px 0 rgb(51, 80, 247)) 
+    drop-shadow(-2px -2px 0 rgb(51, 80, 247));
+}
