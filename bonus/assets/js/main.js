@@ -12,9 +12,11 @@ if(eta < 18){
 }
 else if(eta > 65){
     console.log("il prezzo del biglietto è :" + (prezzoBiglietto - ((prezzoBiglietto * 40) / 100)) + "$");
+    totale.innerHTML +=(prezzoBiglietto - ((prezzoBiglietto * 40) / 100)) + "$";
 }
 else{
     console.log("il prezzo del biglietto è :" + prezzoBiglietto + "$");
+    totale.innerHTML += prezzoBiglietto + "$";
 }
 
 var id = 0;
