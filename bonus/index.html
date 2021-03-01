@@ -5,22 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biglietto del treno</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="./assets/css/master.css">
 </head>
 <body>
     <div class="trainCard">
-        <div class="trainInputs">
-            <form action="" id="myForm">
-                <input id="kilometri" type="text" placeholder="Km">
-                <input id="eta" type="text" placeholder="Età">
-                <input type="button" onclick="biglietto()" value="Check Cost">
-                <input type="text" id="totale" placeholder="Totale dovuto">
-            </form>
-                
-         
-            
-        </div>
+        <p  id="tot">Totale dovuto:</p>
     </div>
+
+    <i id="iconPulse" class="fas fa-hand-pointer"></i>
 
     <div class="train" onclick="moveOn()" id="train">
         <img src="./assets/img/9853.png" alt="" >
